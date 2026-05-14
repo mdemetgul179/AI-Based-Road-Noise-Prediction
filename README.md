@@ -32,23 +32,21 @@ The study investigates whether traffic noise levels can be estimated solely from
 ## Repository Structure
 
 ```text
-Road_Noise_Prediction/
+AI-Based-Road-Noise-Prediction/
 │
 ├── data/
-│   ├── raw/
 │   └── processed/
+│       ├── idmt_decibels_numeric.xlsx
+│       ├── idmt_octave_decibels_numeric.xlsx
+│       └── idmt_uncleaned_decibels.xlsx
 │
 ├── notebooks/
+│   └── noise_prediction_benchmark.ipynb
 │
-├── models/
-│
-├── results/
-│
-├── figures/
-│
-├── README.md
-├── requirements.txt
-└── environment.yml
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 ```
 
 ---
